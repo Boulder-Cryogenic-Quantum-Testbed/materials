@@ -6,8 +6,8 @@ A comprehensive list of materials losses at millikelvin temperatures and single 
 
 |  Material  | Reference | Dep. | Geom. | \deltaLP [x 10^-5] | F\delta^0TLS [x 10^-5] |
 | ---------- | --------- | ---- | ----- | ----------- | --------------- |
-| a-SiO2 | Martinis 2005 | CVD  | LE PPC | 500 | |
-| a-SiNx | Martinis 2005 | CVD | LE PPC | 20 | |
+| a-SiO2 | Martinis 2005[^Martinis2005] | CVD  | LE PPC | 500 | |
+| a-SiNx | Martinis 2005[^Martinis2005] | CVD | LE PPC | 20 | |
 | a-Si:H | OConnell 2008 | NA | LE PPC, CPW | 1-13 | |
 | SiNx | OConnell 2008 | NA | LE PPC, CPW | 10-20 | |
 | SiO2 | OConnell 2008 | Therm. ox. | CPW | 30-33 | |
@@ -88,3 +88,5 @@ A comprehensive list of materials losses at millikelvin temperatures and single 
 
 </p>
 </details>
+
+[^Martinis2005]: Martinis, J. M., Cooper, K. B., McDermott, R., Steffen, M., Ansmann, M., Osborn, K., Cicak, K., Oh, S., Pappas, D. P., Simmonds, R. W. et al., “Decoherence in Josephson qubits from dielectric loss,” Phys. Rev. Lett. 95, 210503 (2005).
