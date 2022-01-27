@@ -44,6 +44,7 @@ A comprehensive list of materials losses at millikelvin temperatures and single 
 
 <details><summary>THIN FILM SUPERCONDUCTING METALS</summary>
 <p>
+
 |  SC  | Reference | Dep. | Surf./Etch | Geom. | \deltaLP [x 10^-6] | F\delta^0TLS [x 10^-6] | w/g |
 | ---- | --------- | ---- | ---------- | ----- | ----------- | --------------- | --- |
 | Nb | Gao2008b | NA | NA |  Al2O3  | \lambda/4  | | 2.4-29.8 | 3/2-50/33 |
