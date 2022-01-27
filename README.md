@@ -1,7 +1,9 @@
 # materials
 A comprehensive list of materials losses at millikelvin temperatures and single photon powers
 
-DIELECTRIC MATERIALS
+<details><summary>DIELECTRIC MATERIALS</summary>
+<p>
+
 |  Material  | Reference | Dep. | Geom. | \deltaLP [x 10^-5] | F\delta^0TLS [x 10^-5] |
 | ---------- | --------- | ---- | ----- | ----------- | --------------- |
 | a-SiO2 | Martinis 2005 | CVD  | LE PPC | 500 | |
@@ -37,7 +39,11 @@ DIELECTRIC MATERIALS
 | Al2O3 | McRae 2020 | Sputter | LE PPC | | 100 |
 | HSQ | Niepce 2020 | Spin-on-glass | CPW |  800 | |
 
-THIN FILM SUPERCONDUCTING METALS
+</p>
+</details>
+
+<details><summary>THIN FILM SUPERCONDUCTING METALS</summary>
+<p>
 |  SC  | Reference | Dep. | Surf./Etch | Geom. | \deltaLP [x 10^-6] | F\delta^0TLS [x 10^-6] | w/g |
 | ---- | --------- | ---- | ---------- | ----- | ----------- | --------------- | --- |
 | Nb | Gao2008b | NA | NA |  Al2O3  | \lambda/4  | | 2.4-29.8 | 3/2-50/33 |
@@ -78,3 +84,6 @@ THIN FILM SUPERCONDUCTING METALS
 | TiN  | Lock2019 | Sputter | HF, RIE |  Si  |  \lambda/4  | | 0.2-30 | 3/12 |
 | Nb  | Nersisyan2019 | PVD | Various, RIE |  Si  |  \lambda/4  | 0.8-6 | |
 | TiN  | Woods2019 | Sputter | RCA, RIE |  Si  |  \lambda/4  | | 0.3-1 |
+
+</p>
+</details>
