@@ -55,6 +55,7 @@ thermal evaporation. MBE: molecular beam epitaxy. PVD: plasma vapor deposition. 
 
 |  SC  | Reference | Dep. | Surf./Etch | Substrate | Geom. | δ_LP [x 10^-6] | Fδ^0_TLS [x 10^-6] | w/g |
 | ---- | --------- | ---- | ---------- | --------- | ----- | ------------------- | ----------------------- | --- |
+| Nb  | Zheng2022[^Zheng2022] | E-beam | BOE / RIE | Si | λ/4 |  | 0.29 | 3/2 |
 | Nb  | Kowsari2021[^Kowsari2021] | E-beam  | Piranha+BOE / RIE | Si | λ/4 |  | 0.194 | 3/2 |
 | TiN  | Gao2021[^Gao2021] | MBE  | 300C anneal / RIE | Al2O3 | λ/2 hanger | 0.3 |  | 10/6 |
 | TiN  | Gao2021[^Gao2021] | MBE  | 300C anneal / wet etch | Al2O3 | λ/2 hanger | 0.3 |  | 10/6 |
@@ -100,7 +101,7 @@ thermal evaporation. MBE: molecular beam epitaxy. PVD: plasma vapor deposition. 
 </p>
 </details>
 
-###REFERENCES###
+REFERENCES
 
 [^Martinis2005]: Martinis, J. M., Cooper, K. B., McDermott, R., Steffen, M., Ansmann, M., Osborn, K., Cicak, K., Oh, S., Pappas, D. P., Simmonds, R. W. et al., “Decoherence in Josephson qubits from dielectric loss,” Phys. Rev. Lett. 95, 210503 (2005)
 [^OConnell2008]: O’Connell, A. D., Ansmann, M., Bialczak, R. C., Hofheinz, M., Katz, N.,Lucero,  E.,  McKenney,  C.,  Neeley,  M.,  Wang,  H.,  Weig,  E. M.,et al.,“Microwave dielectric loss at single photon energies and millikelvin temperatures,” Appl. Phys. Lett. 92, 112903 (2008)
@@ -145,3 +146,5 @@ thermal evaporation. MBE: molecular beam epitaxy. PVD: plasma vapor deposition. 
 [^Gao2021]: Gao, R., Yu, W., Deng, H., Ku, H.-S., Li, Z., Wang, M., … Deng, C. (2021). Epitaxial titanium nitride microwave resonators: Structural, chemical, electrical, and microwave properties. http://arxiv.org/abs/2111.04227
 [^Kowsari2021]: Kowsari, D., Zheng, K., Monroe, J. T., Thobaben, N. J., Du, X., Harrington, P. M., … Murch, K. W. Fabrication and surface treatment of electron-beam evaporated niobium for low-loss coplanar waveguide resonators. Applied Physics Letters, 119 (13), 132601 (2021).
 [^Degnan2022]: Degnan, Z., He, X., Frieiro, A. G., Sachkou, Y. P., Fedorov, A., & Jacobson, P. (2022). Ternary Metal Oxide Substrates for Superconducting Circuits. http://arxiv.org/abs/2201.06228
+[^Zheng2022]: Zheng, K., Kowsari, D., Thobaben, N. J., Du, X., Song, X., Ran, S., … Murch, K. W. (2022). Nitrogen Plasma Passivated Niobium Resonators for Superconducting Quantum Circuits. http://arxiv.org/abs/2201.01776
+
