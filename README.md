@@ -4,10 +4,12 @@ A comprehensive list of materials losses at millikelvin temperatures and single 
 <details><summary>DIELECTRIC MATERIALS</summary>
 <p>
 
-Dielectric material measurements. Columns (from left to right): material of interest (Material), reference where the measurement is reported (Reference), method of dielectric deposition (Dep.), design of the measured device (Geom.), reported low power loss δLP, and resonator-induced intrinsic TLS loss Fδ0TLS. CVD: chemical vapor deposition. Therm. ox.: thermal oxidation. PECVD: plasma-enhanced CVD. ICP CVD: inductively coupled plasma CVD. MBE: molecular beam epitaxy. ECR-PECVD: electron cyclotron resonance PECVD. LE: lumped element resonator design. LE PPC: lumped element resonator with the parallel plate capacitor. IDC: lumped element resonator with the interdigitated capacitor. Note that values cannot be directly compared due to differences in the TLS filling factor, resonance frequency, Qi/Qc matching, fabrication, magnetic shielding, IR filtering and isolation, thermalization, and data fitting.
+Dielectric material measurements. Columns (from left to right): material of interest (Material), reference where the measurement is reported (Reference), method of dielectric deposition (Dep.), design of the measured device (Geom.), reported low power loss δ_LP, and resonator-induced intrinsic TLS loss Fδ^0_TLS. CVD: chemical vapor deposition. Therm. ox.: thermal oxidation. PECVD: plasma-enhanced CVD. ICP CVD: inductively coupled plasma CVD. MBE: molecular beam epitaxy. ECR-PECVD: electron cyclotron resonance PECVD. LE: lumped element resonator design. LE PPC: lumped element resonator with the parallel plate capacitor. IDC: lumped element resonator with the interdigitated capacitor. Note that values cannot be directly compared due to differences in the TLS filling factor, resonance frequency, Qi/Qc matching, fabrication, magnetic shielding, IR filtering and isolation, thermalization, and data fitting.
 
-|  Material  | Reference | Dep. | Geom. | \delta_LP [x 10^-5] | F\delta^0_TLS [x 10^-5] |
+|  Material  | Reference | Dep. | Geom. | δ_LP [x 10^-5] | Fδ^0_TLS [x 10^-5] |
 | ---------- | --------- | ---- | ----- | ----------- | --------------- |
+| LaAlO3 | Degnan 2022[^Degnan2022] | Substrate | CPW |  | 0.91 |
+| MgAl2O4 | Degnan 2022[^Degnan2022] | Substrate | CPW | | 0.5 |
 | Al2O3 | McRae 2020[^McRae2020] | Sputter | LE PPC | | 100 |
 | HSQ | Niepce 2020[^Niepce2020] | Spin-on-glass | CPW |  800 | |
 | B4C | Wisbey 2019[^Wisbey2019] | Sputter | CPW | | 10-15 |
@@ -48,58 +50,57 @@ Dielectric material measurements. Columns (from left to right): material of inte
 <details><summary>THIN FILM SUPERCONDUCTING METALS</summary>
 <p>
 
-Loss measurements of superconducting metals. Columns (from left to right): superconductor in the measured device (SC), reference where the measurement is reported (Reference), method of metal deposition (Dep.), surface treatments applied and etch type used to define resonators (Surf./Etch), substrate on which the metal was deposited (Substrate), design of the measured device (Geom.), reported low power loss δLP, resonator-induced intrinsic TLS loss Fδ0TLS, width w of the conductor, and gap g between the conductor and the ground plane. Therm. evap.:
+Loss measurements of superconducting metals. Columns (from left to right): superconductor in the measured device (SC), reference where the measurement is reported (Reference), method of metal deposition (Dep.), surface treatments applied and etch type used to define resonators (Surf./Etch), substrate on which the metal was deposited (Substrate), design of the measured device (Geom.), reported low power loss δLP, resonator-induced intrinsic TLS loss Fδ^0_TLS, width w of the conductor, and gap g between the conductor and the ground plane. Therm. evap.:
 thermal evaporation. MBE: molecular beam epitaxy. PVD: plasma vapor deposition. RIE: reactive ion etch. H-pass.: hydrogen-passivated. λ/2 or λ/4: CPW resonator of length stated. LE IDC: lumped element resonator with the interdigitated capacitor. NA: information not available. Note that values cannot be directly compared due to significant experimental differences.
 
-|  SC  | Reference | Dep. | Surf./Etch | Substrate | Geom. | \delta_LP [x 10^-6] | F\delta^0_TLS [x 10^-6] | w/g |
+|  SC  | Reference | Dep. | Surf./Etch | Substrate | Geom. | δ_LP [x 10^-6] | Fδ^0_TLS [x 10^-6] | w/g |
 | ---- | --------- | ---- | ---------- | --------- | ----- | ------------------- | ----------------------- | --- |
-| Nb  | Kowsari2021[^Kowsari2021] | E-beam  | Piranha+BOE / RIE | Si | \lambda/4 |  | 0.194 | 3/2 |
-| TiN  | Gao2021[^Gao2021] | MBE  | 300C anneal / RIE | Al2O3 | \lambda/2 hanger | 0.3 |  | 10/6 |
-| TiN  | Gao2021[^Gao2021] | MBE  | 300C anneal / wet etch | Al2O3 | \lambda/2 hanger | 0.3 |  | 10/6 |
-| TiN  | Lock2019[^Lock2019] | Sputter | HF / RIE |  Si  |  \lambda/4  | | 0.2-30 | 3/12 |
-| Nb  | Nersisyan2019[^Nersisyan2019] | PVD | Various / RIE |  Si  |  \lambda/4  | 0.8-6 | |
-| TiN  | Woods2019[^Woods2019] | Sputter | RCA / RIE |  Si  |  \lambda/4  | | 0.3-1 |
-| Al  | Burnett 2018[^Burnett2018] | E-beam | HF / wet etch |  Si  |  \lambda/4  | 1.3 | 1.1 |
-| TiN  | Calusine 2018[^Calusine2018] | Sputter | RCA / RIE |  Si  |  \lambda/4   | | 0.3 | 16/8-22/11 |
-| Al  | Earnest 2018[^Earnest2018] | E-beam | none / RIE |  Si  |  \lambda/4  | 3.1 | 3.27 | 15/9 |
-| Al  | Earnest 2018[^Earnest2018] | E-beam | RCA-1+HF / RIE |  Si  |  \lambda/4  | 1.9 | 1.53 | 15/9 |
-| Al  | Earnest 2018[^Earnest2018] | E-beam | Anneal / RIE |  Si  |  \lambda/4  | 1.8 | 1.56 | 15/9 |
-| Al  | Earnest 2018[^Earnest2018] | E-beam | RCA-1+HF+anneal / RIE |  Si  |  \lambda/4   | 1.2 | 0.8 | 15/9 |
-| In  | McRae 2018[^McRae2018] | Therm. evap. | none / wet etch |  Si  |  \lambda/4  | | 40 | 12/6 |
-| In  | McRae 2018[^McRae2018] | Therm. evap. | HF / wet etch |  Si  |  \lambda/4  | | 50 | 12/6 |
+| Nb  | Kowsari2021[^Kowsari2021] | E-beam  | Piranha+BOE / RIE | Si | λ/4 |  | 0.194 | 3/2 |
+| TiN  | Gao2021[^Gao2021] | MBE  | 300C anneal / RIE | Al2O3 | λ/2 hanger | 0.3 |  | 10/6 |
+| TiN  | Gao2021[^Gao2021] | MBE  | 300C anneal / wet etch | Al2O3 | λ/2 hanger | 0.3 |  | 10/6 |
+| TiN  | Lock2019[^Lock2019] | Sputter | HF / RIE |  Si  |  λ/4  | | 0.2-30 | 3/12 |
+| Nb  | Nersisyan2019[^Nersisyan2019] | PVD | Various / RIE |  Si  |  λ/4  | 0.8-6 | |
+| TiN  | Woods2019[^Woods2019] | Sputter | RCA / RIE |  Si  |  λ/4  | | 0.3-1 |
+| Al  | Burnett 2018[^Burnett2018] | E-beam | HF / wet etch |  Si  |  λ/4  | 1.3 | 1.1 |
+| TiN  | Calusine 2018[^Calusine2018] | Sputter | RCA / RIE |  Si  |  λ/4   | | 0.3 | 16/8-22/11 |
+| Al  | Earnest 2018[^Earnest2018] | E-beam | none / RIE |  Si  |  λ/4  | 3.1 | 3.27 | 15/9 |
+| Al  | Earnest 2018[^Earnest2018] | E-beam | RCA-1+HF / RIE |  Si  |  λ/4  | 1.9 | 1.53 | 15/9 |
+| Al  | Earnest 2018[^Earnest2018] | E-beam | Anneal / RIE |  Si  |  λ/4  | 1.8 | 1.56 | 15/9 |
+| Al  | Earnest 2018[^Earnest2018] | E-beam | RCA-1+HF+anneal / RIE |  Si  |  λ/4   | 1.2 | 0.8 | 15/9 |
+| In  | McRae 2018[^McRae2018] | Therm. evap. | none / wet etch |  Si  |  λ/4  | | 40 | 12/6 |
+| In  | McRae 2018[^McRae2018] | Therm. evap. | HF / wet etch |  Si  |  λ/4  | | 50 | 12/6 |
 | TiN  | Shearrow 2018[^Shearrow2018] | ALD | Nano-Strip, HF / RIE |  Si  | LE IDC | 0.5-17 | |
 | NbN  | DeGraaf 2017[^DeGraaf2017] | Sputter | none / NA |  Al2O3  | Fractal | | 10.4-10.6 | g=2|
 | NbN  | DeGraaf 2017[^DeGraaf2017] | Sputter | Anneal / NA |  Al2O3  | Fractal | | 7.44, 7.69 | g=2|
 | Nb+Pt  | Burnett 2016[^Burnett2016] | MBE | NA / RIE |  Al2O3  | LE IDC | | 12 | |
 | Nb  | Burnett 2016[^Burnett2016] | Sputter | NA / RIE |  Al2O3  | Fractal | | 1.1 | |
-| Nb  | Goetz 2016[^Goetz2016] | Sputter | HF / RIE |  Si  |  \lambda/2  | | 0.9 | 20/12 |
-| Nb  | Goetz 2016[^Goetz2016] | Sputter | Ar mill / RIE |  Al2O3  |  \lambda/2  | | 1.6 | 20/12|
-| Al  | Richardson 2016[^Richardson2016] | MBE | Various / wet etch |  Si  |  \lambda/4  | | 0.2-760 | 3/2-22/12|
-| Al  | Richardson 2016[^Richardson2016] | MBE | Various / RIE |  Si  |  \lambda/4  | | 0.5-4800 | 3/2-22/12 |
-| Al  | Richardson 2016[^Richardson2016] | MBE | Various / wet etch |  Al2O3  |  \lambda/4  | | 0.5-5.3 | 3/2-22/12|
-| Al  | Richardson 2016[^Richardson2016] | MBE | Various / RIE |  Al2O3  |  \lambda/4  | | 0.4-7.4 | 3/2-22/12|
-| TiN  | Ohya 2014[^Ohya2014] | Sputter | Nano-Strip+HF / RIE |  Si  |  \lambda/4  | 1 | | 15/10|
+| Nb  | Goetz 2016[^Goetz2016] | Sputter | HF / RIE |  Si  |  λ/2  | | 0.9 | 20/12 |
+| Nb  | Goetz 2016[^Goetz2016] | Sputter | Ar mill / RIE |  Al2O3  |  λ/2  | | 1.6 | 20/12|
+| Al  | Richardson 2016[^Richardson2016] | MBE | Various / wet etch |  Si  |  λ/4  | | 0.2-760 | 3/2-22/12|
+| Al  | Richardson 2016[^Richardson2016] | MBE | Various / RIE |  Si  |  λ/4  | | 0.5-4800 | 3/2-22/12 |
+| Al  | Richardson 2016[^Richardson2016] | MBE | Various / wet etch |  Al2O3  |  λ/4  | | 0.5-5.3 | 3/2-22/12|
+| Al  | Richardson 2016[^Richardson2016] | MBE | Various / RIE |  Al2O3  |  λ/4  | | 0.4-7.4 | 3/2-22/12|
+| TiN  | Ohya 2014[^Ohya2014] | Sputter | Nano-Strip+HF / RIE |  Si  |  λ/4  | 1 | | 15/10|
 | Nb  | Burnett 2013[^Burnett2013] | Sputter | NA |  Al2O3  | LE IDC | | 2.0 | |
 | Re  | Cho 2013[^Cho2013] | MBE | Anneal / NA |  Al2O3  | LE IDC | 30-50 | | |
-| NbTiN  | Barends 2010b[^Barends2010b] | Sputter | H-pass., RIE |  Si  |  \lambda/4  | 3 | | 3/2-6/2 | 
-| Ta  | Barends 2010b[^Barends2010b] | Sputter | NA, RIE |  Si  |  \lambda/4  | 30 | | 5/2 |
-| Nb  | Macha 2010[^Macha2010] | NA | none / dry etch |  Al2O3  |  \lambda/2  | | 2.4-2.6 | 50/30 |
-| Nb  | Macha 2010[^Macha2010] | NA | none / dry etch |  Si  |  \lambda/2  | | 1.3, 1.6 | 50/30 | 
-| Al  | Macha 2010[^Macha2010] | NA | none / liftoff |  Al2O3  |  \lambda/2  | | 2.0 | 50/30 |
-|  Re  | Wang 2009[^Wang2009] | E-beam | NA / RIE |  Al2O3  |  \lambda/4  | 1-3 | | 16/6.4-5/2 |
-| Al  | Wang 2009[^Wang2009] | Sputter | NA / RIE |  Al2O3  |  \lambda/4  | 3-10 | | 16/6.4-5/2 |
-| Nb | Gao 2008b[^Gao2008b] | NA | NA |  Al2O3  | \lambda/4  | | 2.4-29.8 | 3/2-50/33 |
-| Nb | Kumar 2008[^Kumar2008] | NA | NA, RIE |  Si  |  \lambda/4  | | 29.4 | 5/1 | %| 5/1 |
-| Al | O'Connell 2008[^OConnell2008] | NA | NA | Si |  \lambda/2  | <5-12 |
-| Re | O'Connell 2008[^OConnell2008] | NA | NA |  Al2O3  |  \lambda/2  | <6-10 |
-| Al | O'Connell 2008[^OConnell2008] | NA | NA |  Al2O3  |  \lambda/2  | <9-21 |
+| NbTiN  | Barends 2010b[^Barends2010b] | Sputter | H-pass., RIE |  Si  |  λ/4  | 3 | | 3/2-6/2 | 
+| Ta  | Barends 2010b[^Barends2010b] | Sputter | NA, RIE |  Si  |  λ/4  | 30 | | 5/2 |
+| Nb  | Macha 2010[^Macha2010] | NA | none / dry etch |  Al2O3  |  λ/2  | | 2.4-2.6 | 50/30 |
+| Nb  | Macha 2010[^Macha2010] | NA | none / dry etch |  Si  |  λ/2  | | 1.3, 1.6 | 50/30 | 
+| Al  | Macha 2010[^Macha2010] | NA | none / liftoff |  Al2O3  |  λ/2  | | 2.0 | 50/30 |
+|  Re  | Wang 2009[^Wang2009] | E-beam | NA / RIE |  Al2O3  |  λ/4  | 1-3 | | 16/6.4-5/2 |
+| Al  | Wang 2009[^Wang2009] | Sputter | NA / RIE |  Al2O3  |  λ/4  | 3-10 | | 16/6.4-5/2 |
+| Nb | Gao 2008b[^Gao2008b] | NA | NA |  Al2O3  | λ/4  | | 2.4-29.8 | 3/2-50/33 |
+| Nb | Kumar 2008[^Kumar2008] | NA | NA, RIE |  Si  |  λ/4  | | 29.4 | 5/1 | %| 5/1 |
+| Al | O'Connell 2008[^OConnell2008] | NA | NA | Si |  λ/2  | <5-12 |
+| Re | O'Connell 2008[^OConnell2008] | NA | NA |  Al2O3  |  λ/2  | <6-10 |
+| Al | O'Connell 2008[^OConnell2008] | NA | NA |  Al2O3  |  λ/2  | <9-21 |
 | Al | O'Connell 2008[^OConnell2008] | NA | NA |  Al2O3  | LE IDC | 41-47 |
 
 </p>
 </details>
 
-<details><summary>REFERENCES</summary>
-<p>
+###REFERENCES###
 
 [^Martinis2005]: Martinis, J. M., Cooper, K. B., McDermott, R., Steffen, M., Ansmann, M., Osborn, K., Cicak, K., Oh, S., Pappas, D. P., Simmonds, R. W. et al., “Decoherence in Josephson qubits from dielectric loss,” Phys. Rev. Lett. 95, 210503 (2005)
 [^OConnell2008]: O’Connell, A. D., Ansmann, M., Bialczak, R. C., Hofheinz, M., Katz, N.,Lucero,  E.,  McKenney,  C.,  Neeley,  M.,  Wang,  H.,  Weig,  E. M.,et al.,“Microwave dielectric loss at single photon energies and millikelvin temperatures,” Appl. Phys. Lett. 92, 112903 (2008)
@@ -143,7 +144,4 @@ thermal evaporation. MBE: molecular beam epitaxy. PVD: plasma vapor deposition. 
 [^Lock2019]: Lock, E. H., Xu, P., Kohler, T., Camacho, L., Prestigiacomo, J., Rosen, Y. J., and Osborn, K. D., “Using surface engineering to modulate superconducting coplanar microwave resonator performance,” IEEE Trans. Appl. Supercond. 29, 1700108 (2019).
 [^Gao2021]: Gao, R., Yu, W., Deng, H., Ku, H.-S., Li, Z., Wang, M., … Deng, C. (2021). Epitaxial titanium nitride microwave resonators: Structural, chemical, electrical, and microwave properties. http://arxiv.org/abs/2111.04227
 [^Kowsari2021]: Kowsari, D., Zheng, K., Monroe, J. T., Thobaben, N. J., Du, X., Harrington, P. M., … Murch, K. W. Fabrication and surface treatment of electron-beam evaporated niobium for low-loss coplanar waveguide resonators. Applied Physics Letters, 119 (13), 132601 (2021).
-
-
-</p>
-</details>
+[^Degnan2022]: Degnan, Z., He, X., Frieiro, A. G., Sachkou, Y. P., Fedorov, A., & Jacobson, P. (2022). Ternary Metal Oxide Substrates for Superconducting Circuits. http://arxiv.org/abs/2201.06228
