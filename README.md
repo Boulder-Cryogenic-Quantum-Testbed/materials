@@ -4,7 +4,9 @@ A comprehensive list of materials losses at millikelvin temperatures and single 
 <details><summary>DIELECTRIC MATERIALS</summary>
 <p>
 
-Dielectric material measurements. Columns (from left to right): material of interest (Material), reference where the measurement is reported (Reference), method of dielectric deposition (Dep.), design of the measured device (Geom.), reported low power loss δ_LP, and resonator-induced intrinsic TLS loss Fδ^0_TLS. CVD: chemical vapor deposition. Therm. ox.: thermal oxidation. PECVD: plasma-enhanced CVD. ICP CVD: inductively coupled plasma CVD. MBE: molecular beam epitaxy. ECR-PECVD: electron cyclotron resonance PECVD. LE: lumped element resonator design. LE PPC: lumped element resonator with the parallel plate capacitor. IDC: lumped element resonator with the interdigitated capacitor. Note that values cannot be directly compared due to differences in the TLS filling factor, resonance frequency, Qi/Qc matching, fabrication, magnetic shielding, IR filtering and isolation, thermalization, and data fitting.
+Dielectric material measurements. Columns (from left to right): material of interest (Material), reference where the measurement is reported (Reference), method of dielectric deposition (Dep.), design of the measured device (Geom.), reported low power loss δ_LP, and resonator-induced intrinsic TLS loss Fδ^0_TLS. CVD: chemical vapor deposition. Therm. ox.: thermal oxidation. PECVD: plasma-enhanced CVD. ICP CVD: inductively coupled plasma CVD. MBE: molecular beam epitaxy. ECR-PECVD: electron cyclotron resonance PECVD. LE: lumped element resonator design. LE PPC: lumped element resonator with the parallel plate capacitor. IDC: lumped element resonator with the interdigitated capacitor.
+
+Note that values cannot be directly compared due to differences in the TLS filling factor, resonance frequency, Qi/Qc matching, fabrication, magnetic shielding, IR filtering and isolation, thermalization, and data fitting.
 
 |  Material  | Reference | Dep. | Geom. | δ_LP [x 10^-5] | Fδ^0_TLS [x 10^-5] |
 | ---------- | --------- | ---- | ----- | ----------- | --------------- |
@@ -51,10 +53,13 @@ Dielectric material measurements. Columns (from left to right): material of inte
 <p>
 
 Loss measurements of superconducting metals. Columns (from left to right): superconductor in the measured device (SC), reference where the measurement is reported (Reference), method of metal deposition (Dep.), surface treatments applied and etch type used to define resonators (Surf./Etch), substrate on which the metal was deposited (Substrate), design of the measured device (Geom.), reported low power loss δLP, resonator-induced intrinsic TLS loss Fδ^0_TLS, width w of the conductor, and gap g between the conductor and the ground plane. Therm. evap.:
-thermal evaporation. MBE: molecular beam epitaxy. PVD: plasma vapor deposition. RIE: reactive ion etch. H-pass.: hydrogen-passivated. λ/2 or λ/4: CPW resonator of length stated. LE IDC: lumped element resonator with the interdigitated capacitor. NA: information not available. Note that values cannot be directly compared due to significant experimental differences.
+thermal evaporation. MBE: molecular beam epitaxy. PVD: plasma vapor deposition. RIE: reactive ion etch. H-pass.: hydrogen-passivated. λ/2 or λ/4: CPW resonator of length stated. LE IDC: lumped element resonator with the interdigitated capacitor. NA: information not available.
+
+Note that values cannot be directly compared due to significant experimental differences.
 
 |  SC  | Reference | Dep. | Surf./Etch | Substrate | Geom. | δ_LP [x 10^-6] | Fδ^0_TLS [x 10^-6] | w/g |
 | ---- | --------- | ---- | ---------- | --------- | ----- | ------------------- | ----------------------- | --- |
+| NbN/TiN  | Kim2021[^Kim2021] | Sputter | NA / RIE | Si | λ/2 | 3.68 |  |  |
 | Nb  | Zheng2022[^Zheng2022] | E-beam | BOE / RIE | Si | λ/4 |  | 0.29 | 3/2 |
 | Nb  | Kowsari2021[^Kowsari2021] | E-beam  | Piranha+BOE / RIE | Si | λ/4 |  | 0.194 | 3/2 |
 | TiN  | Gao2021[^Gao2021] | MBE  | 300C anneal / RIE | Al2O3 | λ/2 hanger | 0.3 |  | 10/6 |
@@ -137,7 +142,7 @@ REFERENCES
 [^DeGraaf2017]: De Graaf, S., Faoro, L., Burnett, J., Adamyan, A., Tzalenchuk, A. Y., Kubatkin, S., Lindström, T., and Danilov, A., “Suppression of low-frequency charge noise in superconducting resonators by surface spin desorption,” Nat. Commun. 9, 1143 (2018).
 [^Shearrow2018]: Shearrow, A., Koolstra, G., Whiteley, S. J., Earnest, N., Barry, P. S., Heremans, F. J., Awschalom, D. D., Shirokoff, E., and Schuster, D. I., “Atomic layer deposition of titanium nitride for quantum circuits,” Appl. Phys. Lett. 113 (21), 212601 (2018).
 [^McRae2018]: McRae, C. R. H., Béjanin, J. H., Earnest, C. T., McConkey, T. G., Rinehart, J. R., Deimert, C., Thomas, J. P., Wasilewski, Z. R., and Mariantoni, M., “Thin film metrology and microwave loss characterization ofindium and aluminum/indium superconducting planar resonators,” J. Appl. Phys. 123 (20), 205304 (2018).
-[^Earnest2018]: Earnest, C. T., Béjanin, J. H., McConkey, T. G., Peters, E. A., Korinek, A., Yuan, H., and Mariantoni, M., “Substrate surface engineering for high-quality sil- icon/aluminium superconducting resonators,” Supercond. Sci. Technol. 31, 125013 (2018)
+[^Earnest2018]: Earnest, C. T., Béjanin, J. H., McConkey, T. G., Peters, E. A., Korinek, A., Yuan, H., and Mariantoni, M., “Substrate surface engineering for high-quality silicon/aluminium superconducting resonators,” Supercond. Sci. Technol. 31, 125013 (2018)
 [^Calusine2018]: Calusine, G., Melville, A., Woods, W., Das, R., Stull, C., Bolkhovsky, V., Braje, D., Hover, D., Kim, D. K., Miloshi, X. et al., “Analysis and mitigation of interface losses in trenched superconducting coplanar waveguide resonators,” Appl. Phys. Lett. 112, 062601 (2018).
 [^Burnett2018]: Burnett, J., Bengtsson, A., Niepce, D., and Bylander, J., “Noise and loss of superconducting aluminium resonators at single photon energies,” J. Phys. Conf. Ser. 969, 012131 (2018).
 [^Woods2019]: Woods, W., Calusine, G., Melville, A., Sevi, A., Golden, E., Kim, D. K., Rosenberg, D., Yoder, J. L., and Oliver, W. D., “Determining interface dielectric losses in superconducting coplanar-waveguide resonators,” Phys. Rev. Appl. 12 (1), 014012 (2019)
@@ -147,4 +152,5 @@ REFERENCES
 [^Kowsari2021]: Kowsari, D., Zheng, K., Monroe, J. T., Thobaben, N. J., Du, X., Harrington, P. M., … Murch, K. W. Fabrication and surface treatment of electron-beam evaporated niobium for low-loss coplanar waveguide resonators. Applied Physics Letters, 119 (13), 132601 (2021).
 [^Degnan2022]: Degnan, Z., He, X., Frieiro, A. G., Sachkou, Y. P., Fedorov, A., & Jacobson, P. (2022). Ternary Metal Oxide Substrates for Superconducting Circuits. http://arxiv.org/abs/2201.06228
 [^Zheng2022]: Zheng, K., Kowsari, D., Thobaben, N. J., Du, X., Song, X., Ran, S., … Murch, K. W. (2022). Nitrogen Plasma Passivated Niobium Resonators for Superconducting Quantum Circuits. http://arxiv.org/abs/2201.01776
+[^Kim2021]: Kim, S., Terai, H., Yamashita, T., Qiu, W., Fuse, T., Yoshihara, F., … Semba, K. Enhanced-coherence all-nitride superconducting qubit epitaxially grown on Si Substrate. Communications Materials 2, 98 (2021)
 
