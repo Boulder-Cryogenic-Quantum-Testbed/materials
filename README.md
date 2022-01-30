@@ -12,6 +12,7 @@ Note that values cannot be directly compared due to differences in the TLS filli
 | ---------- | --------- | ---- | ----- | ----------- | --------------- |
 | LaAlO3 | Degnan 2022[^Degnan2022] | Substrate | CPW |  | 0.91 |
 | MgAl2O4 | Degnan 2022[^Degnan2022] | Substrate | CPW | | 0.5 |
+| a-Ge | Kopas 2021[^Kopas2021] | Therm. evap. | CPW| 0.47-1.1 | |
 | Al2O3 | McRae 2020[^McRae2020] | Sputter | LE PPC | | 100 |
 | HSQ | Niepce 2020[^Niepce2020] | Spin-on-glass | CPW |  800 | |
 | B4C | Wisbey 2019[^Wisbey2019] | Sputter | CPW | | 10-15 |
@@ -153,4 +154,4 @@ REFERENCES
 [^Degnan2022]: Degnan, Z., He, X., Frieiro, A. G., Sachkou, Y. P., Fedorov, A., & Jacobson, P. (2022). Ternary Metal Oxide Substrates for Superconducting Circuits. http://arxiv.org/abs/2201.06228
 [^Zheng2022]: Zheng, K., Kowsari, D., Thobaben, N. J., Du, X., Song, X., Ran, S., … Murch, K. W. (2022). Nitrogen Plasma Passivated Niobium Resonators for Superconducting Quantum Circuits. http://arxiv.org/abs/2201.01776
 [^Kim2021]: Kim, S., Terai, H., Yamashita, T., Qiu, W., Fuse, T., Yoshihara, F., … Semba, K. Enhanced-coherence all-nitride superconducting qubit epitaxially grown on Si Substrate. Communications Materials 2, 98 (2021)
-
+[^Kopas2021]: Kopas, C. J., Gonzales, J., Zhang, S. , Queen, D. R., Wagner, B., Robinson, M., Huffman, J., Newman, N., "Low microwave loss in deposited Si and Ge thin-film dielectrics at single-photon power and low temperatures." AIP Advances 11, 095007 (2021). https://doi.org/10.1063/5.0041525
