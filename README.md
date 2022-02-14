@@ -12,7 +12,8 @@ Note that values cannot be directly compared due to differences in the TLS filli
 | ---------- | --------- | ---- | ----- | ----------- | --------------- |
 | LaAlO3 | Degnan 2022[^Degnan2022] | Substrate | CPW |  | 0.91 |
 | MgAl2O4 | Degnan 2022[^Degnan2022] | Substrate | CPW | | 0.5 |
-| a-SiC:H | Buijtendorp 2021[^Buijtendorp2021] | PECVD | Microstrip |  | 3.2 |  
+| a-SiC:H | Buijtendorp 2021[^Buijtendorp2021] | PECVD | Microstrip |  | 3.2 |
+| a-Si | Hahnle 2021[^Hahnle2021] | PECVD | Microstrip |  | 3.7 |
 | a-Ge | Kopas 2021[^Kopas2021] | Therm. evap. | CPW| 0.47-1.1 | |
 | Al2O3 | McRae 2020[^McRae2020] | Sputter | LE PPC | | 100 |
 | HSQ | Niepce 2020[^Niepce2020] | Spin-on-glass | CPW |  800 | |
@@ -157,3 +158,4 @@ REFERENCES
 [^Kim2021]: Kim, S., Terai, H., Yamashita, T., Qiu, W., Fuse, T., Yoshihara, F., … Semba, K. Enhanced-coherence all-nitride superconducting qubit epitaxially grown on Si Substrate. Communications Materials 2, 98 (2021)
 [^Kopas2021]: Kopas, C. J., Gonzales, J., Zhang, S. , Queen, D. R., Wagner, B., Robinson, M., Huffman, J., Newman, N., "Low microwave loss in deposited Si and Ge thin-film dielectrics at single-photon power and low temperatures." AIP Advances 11, 095007 (2021). https://doi.org/10.1063/5.0041525
 [^Buijtendorp2021]: Buijtendorp, B. T., Vollebregt, S., Karatsu, K., Thoen, D. J., Murugesan, V., Kouwenhoven, K., … Endo, A. Hydrogenated Amorphous Silicon Carbide: A Low-loss Deposited Dielectric for Microwave to Submillimeter Wave Superconducting Circuits (2021). http://arxiv.org/abs/2110.03500 
+[^Hahnle2021]: Hahnle, S., Kouwenhoven, K., Buijtendorp, B., Endo, A., Karatsu, K., Thoen, D. J., … Baselmans, J. J. A. Superconducting Microstrip Losses at Microwave and Submillimeter Wavelengths. Physical Review Applied 16, 014019 (2021).
