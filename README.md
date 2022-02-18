@@ -15,7 +15,7 @@ Note that values cannot be directly compared due to differences in the TLS filli
 | a-SiC:H | Buijtendorp 2021[^Buijtendorp2021] | PECVD | Microstrip |  | 3.2 |
 | a-Si | Hahnle 2021[^Hahnle2021] | PECVD | Microstrip |  | 3.7 |
 | a-Ge | Kopas 2021[^Kopas2021] | Therm. evap. | CPW| 0.47-1.1 | |
-| InGaAs/InAs/InGaAs/InAlAs stack on InP | Phan 2021^[Phan2021] | Substrate | CPW | 40 |  |
+| InGaAs/InAs/InGaAs/InAlAs stack on InP | Phan 2021^[Phan2021] | MBE | CPW | 40 |  |
 | Al2O3 | McRae 2020[^McRae2020] | Sputter | LE PPC | | 100 |
 | HSQ | Niepce 2020[^Niepce2020] | Spin-on-glass | CPW |  800 | |
 | B4C | Wisbey 2019[^Wisbey2019] | Sputter | CPW | | 10-15 |
