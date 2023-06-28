@@ -108,7 +108,7 @@ chart_studio.tools.set_credentials_file(username=username, api_key=api_key)
 import chart_studio.plotly as py
 py.plot(fig, filename = 'index.html', auto_open=True)
 
-#This will generate your iframe
+#This will generate your iframe, chang url to the url where you graph is hosted on chart studio plotly. ADD   ?link=false   at the end of url to eliminate "Edit Chart" button
 import chart_studio.tools as tls
 tls.get_embed('https://plotly.com/~dylanblevins49/3/') 
 
