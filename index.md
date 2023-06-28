@@ -15,7 +15,7 @@ C. R. H. McRae, H. Wang, J. Gao, M. Vissers, T. Brecht, A. Dunsworth, D. Pappas,
 * * *
 <p align="left"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" align="left" src="https://plotly.com/~dylanblevins49/3.embed?link=false" height="500" width="100%"></iframe></p>
 ![New plotly symbol legend smaller](https://github.com/Boulder-Cryogenic-Quantum-Testbed/materials/assets/120617602/c78f15c2-9163-4332-8cfa-3215129dbd24)
-<img src="https://github.com/Boulder-Cryogenic-Quantum-Testbed/materials/assets/120617602/c78f15c2-9163-4332-8cfa-3215129dbd24"  width="800" height="80">
+<img src="https://github.com/Boulder-Cryogenic-Quantum-Testbed/materials/assets/120617602/c78f15c2-9163-4332-8cfa-3215129dbd24"  width="500" height="45">
 **Background diagonal lines represent constant interface losses with varying geometry while accounting for the filling factor of the TLS-ridden materials.**
 <br>
 <br>
