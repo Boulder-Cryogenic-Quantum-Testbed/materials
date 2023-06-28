@@ -3,6 +3,7 @@ layout: default
 ---
 
 ![Untitled design](https://github.com/DylanBlevins49/scresonators-lossdiagram/assets/120617602/c56713da-6b2f-49bf-9e8f-b244d314efbf)
+![Untitled design (1)](https://github.com/Boulder-Cryogenic-Quantum-Testbed/materials/assets/120617602/bd009e2b-24e2-44fb-88ea-db16635423d5)
 
 * * *
  Superconducting qubits are coherence-limited by materials losses, but the lack of comparable interlaboratory metrics is stunting progress towards lower loss devices. Here, we compile resonator loss measurements from literature and attempt to compare them by scaling loss by the gap of the coplanar waveguide resonator to account for participation of the lossy material. This resource is intended for use by researchers interested in building higher performance materials stacks for superconducting quantum devices. This resource is based on information originally collected for:<br>
