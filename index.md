@@ -2,7 +2,6 @@
 layout: default
 ---
 
-![Untitled design](https://github.com/DylanBlevins49/scresonators-lossdiagram/assets/120617602/c56713da-6b2f-49bf-9e8f-b244d314efbf)
 ![Untitled design (1)](https://github.com/Boulder-Cryogenic-Quantum-Testbed/materials/assets/120617602/bd009e2b-24e2-44fb-88ea-db16635423d5)
 
 * * *
