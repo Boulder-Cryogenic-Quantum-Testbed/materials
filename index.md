@@ -14,7 +14,7 @@ C. R. H. McRae, H. Wang, J. Gao, M. Vissers, T. Brecht, A. Dunsworth, D. Pappas,
 # CPW Resonator Loss 
 * * *
 <p align="left"><iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~crmcrae/4.embed?link=false" height="525" width="100%"></iframe></p>
-<img src="https://github.com/Boulder-Cryogenic-Quantum-Testbed/materials/assets/120617602/c78f15c2-9163-4332-8cfa-3215129dbd24"  width="590" height="45">
+<img src="https://github.com/Boulder-Cryogenic-Quantum-Testbed/materials/assets/120617602/c78f15c2-9163-4332-8cfa-3215129dbd24"  width="615" height="45">
 <br>**Background diagonal lines represent constant interface losses with varying geometry while accounting for the filling factor of the TLS-ridden materials.**
 <br>
 <br>
