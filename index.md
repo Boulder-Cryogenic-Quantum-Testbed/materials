@@ -7,12 +7,8 @@ layout: default
 * * *
  Superconducting qubits are coherence-limited by materials losses, but the lack of comparable interlaboratory metrics is stunting progress towards lower loss devices. Here, we compile resonator loss measurements from literature and attempt to compare them by scaling loss by the gap of the coplanar waveguide resonator to account for participation of the lossy material. This resource is intended for use by researchers interested in building higher performance materials stacks for superconducting quantum devices. This resource is based on information originally collected for:<br>
 C. R. H. McRae, H. Wang, J. Gao, M. Vissers, T. Brecht, A. Dunsworth, D. Pappas, and J. Mutus, *Materials Loss Measurements Using Superconducting Microwave Resonators,* **091101**, (2020).[ *View Reference*](https://pubs.aip.org/aip/rsi/article/91/9/091101/906092/Materials-loss-measurements-using-superconducting)
-
-
-<br>
 <br>
 # CPW Resonator Loss 
-* * *
 <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://plotly.com/~crmcrae/4.embed?link=false" height="525" width="100%"></iframe>
 <!--<img src="https://github.com/Boulder-Cryogenic-Quantum-Testbed/materials/assets/120617602/c78f15c2-9163-4332-8cfa-3215129dbd24"  width="615" height="45"-->
  ![New plotly symbol legend smaller](https://github.com/Boulder-Cryogenic-Quantum-Testbed/materials/assets/120617602/3cacc505-2df7-4eb6-85bb-8ffbfdcc2fd8)
