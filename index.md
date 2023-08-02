@@ -18,8 +18,8 @@ C. R. H. McRae, H. Wang, J. Gao, M. Vissers, T. Brecht, A. Dunsworth, D. Pappas,
 <br>
 # Dataset
 * * *
-<!--| SC    | Reference                | Dep.	         |Substrate	 | δLP      | Fδ0TLS   |  g (µm) |
-|:------|:-------------------------|:--------------|:----------|:---------|:---------|:--------|
+| SC | Reference | Dep. |Substrate	| δLP | Fδ0TLS |  g (µm) |
+|---|---|---|---|---|---|---|
 | Nb    |	Gao et al. (2008c)	     | Not Specified | Al2O3     |          | 2.40E-06 | 33      |
 | Nb    |	Kumar et al. (2008)	     | Not Specified | Si		     |          | 2.94E-05 | 1       |
 | Re    |	Wang et al. (2009)       | E-beam	       | Al2O3     | 1.00E-06	|	         | 6.4     |
@@ -67,7 +67,7 @@ C. R. H. McRae, H. Wang, J. Gao, M. Vissers, T. Brecht, A. Dunsworth, D. Pappas,
 | TiN	  | Gao et al. (2022)	       | Sputter	     | Al2O3     |	        | 3.00E-07 | 6       |
 | Ta	  | Shi et al. (2022)	       | Sputter	     | Al2O3     |	        | 1.00E-06 | 5       |
 | Ta	  | Lozano et al. (2022)	   | Sputter	     | Si		     |          | 4.00E-07 | 4.5     |
-| Ta	  | Lozano et al. (2022)	   | Sputter	     | Si		     |          | 1.00E-06 | 4.5     |-->
+| Ta	  | Lozano et al. (2022)	   | Sputter	     | Si		     |          | 1.00E-06 | 4.5     |
 
 
 ![image](https://github.com/DylanBlevins49/scresonators-lossdiagram/assets/120617602/05bd47ce-c54c-4d0d-9217-6b84f0aad62a)
