@@ -18,46 +18,6 @@ C. R. H. McRae, H. Wang, J. Gao, M. Vissers, T. Brecht, A. Dunsworth, D. Pappas,
 <br>
 # Dataset
 * * *
-|  Material  | Reference | Dep. | Geom. | δ_LP [x 10^-5] | Fδ^0_TLS [x 10^-5] |
-| ---------- | --------- | ---- | ----- | ----------- | --------------- |
-| LaAlO3 | Degnan 2022[^Degnan2022] | Substrate | CPW |  | 0.91 |
-| MgAl2O4 | Degnan 2022[^Degnan2022] | Substrate | CPW | | 0.5 |
-| a-SiC:H | Buijtendorp 2021[^Buijtendorp2021] | PECVD | Microstrip |  | 3.2 |
-| a-Si | Hahnle 2021[^Hahnle2021] | PECVD | Microstrip |  | 3.7 |
-| a-Ge | Kopas 2021[^Kopas2021] | Therm. evap. | CPW| 0.47-1.1 | |
-| InGaAs/InAs/InGaAs/InAlAs stack on InP | Phan 2021^[Phan2021] | MBE | CPW | 40 |  |
-| Al2O3 | McRae 2020[^McRae2020] | Sputter | LE PPC | | 100 |
-| HSQ | Niepce 2020[^Niepce2020] | Spin-on-glass | CPW |  800 | |
-| B4C | Wisbey 2019[^Wisbey2019] | Sputter | CPW | | 10-15 |
-| BN | Wisbey 2019[^Wisbey2019] | Sputter | CPW | | 6 |
-| AlOx | Brehm 2017[^Brehm2017] | Anodic ox. | CPW + PPC | | 4-22 |
-| a-Si | Lecocq 2017[^Lecocq2017] | PECVD | LE PPC | 15-50 | |
-| SiN | Duff 2016[^Duff2016] | ICP-PECVD | Microstrip |  | 78 |
-| SiO2 | Goetz 2016[^Goetz2016] | Therm. ox. | CPW |  | 0.34-0.89 |
-| SiNx | Sarabi 2016[^Sarabi2016] | PECVD | LE PPC | 78 | |
-| AlOx | Deng 2014[^Deng2014] | Plasma ox. | LE overlap | 140-180 | |
-| HfO2 | Burnett 2013[^Burnett2013] | Sputter | LE IDC | | 1.5-2.5 |
-| Al2O3 | Burnett 2013[^Burnett2013] | Sputter | LE IDC | | 2.0-2.5 |
-| Al2O3 | Cho 2013[^Cho2013] | PLD | LE PPC | 3-5 | |
-| SiOx | Li 2013[^Li2013] | ECR-PECVD | Microstrip | 100-700 | |
-| AlOx | Pappas 2011[^Pappas2011] | Therm. ox. | CPW | | F x 100 |
-| Al2O3 | Weides 2011[^Weides2011] | MBE | LE PPC | 6 | |
-| a-SiO2 | Cicak 2010[^Cicak2010] | ECR-PECVD | LE PPC | 600 | |
-| a-SiN | Cicak 2010[^Cicak2010] | ECR-PECVD | LE PPC | 40-50 | |
-| a-Si | Cicak 2010[^Cicak2010] | Sputter | LE PPC | 150-200 | |
-| Nb2O5 | Kaiser 2010[^Kaiser2010] | Anodic ox. | LE PPC | 100-400 | |
-| SiO | Kaiser 2010[^Kaiser2010] | Therm. evap. | LE PPC | 20-50 | |
-| SiNx | Kaiser 2010[^Kaiser2010] | PECVD | LE PPC | 10-30 | |
-| a-SiN | Paik 2010[^Paik2010] | ICP CVD | LE PPC | 2.5-120 | |
-| a-Si:H | OConnell 2008[^OConnell2008] | NA | LE PPC, CPW | 1-13 | |
-| SiNx | OConnell 2008[^OConnell2008] | NA | LE PPC, CPW | 10-20 | |
-| SiO2 | OConnell 2008[^OConnell2008] | Therm. ox. | CPW | 30-33 | |
-| Si | OConnell 2008[^OConnell2008] | Sputtered | CPW | 50-60 | |
-| AlN | OConnell 2008[^OConnell2008] | NA | CPW | 110-180 | |
-| SiO2 | OConnell 2008[^OConnell2008] | PECVD | CPW | 270-290 | |
-| MgO | OConnell 2008[^OConnell2008] | NA | CPW | 500-800 | |
-| a-SiO2 | Martinis 2005[^Martinis2005] | CVD  | LE PPC | 500 | |
-| a-SiNx | Martinis 2005[^Martinis2005] | CVD | LE PPC | 20 | |
 <!--| SC    | Reference                | Dep.	         |Substrate	 | δLP      | Fδ0TLS   |  g (µm) |
 |:------|:-------------------------|:--------------|:----------|:---------|:---------|:--------|
 | Nb    |	Gao et al. (2008c)	     | Not Specified | Al2O3     |          | 2.40E-06 | 33      |
