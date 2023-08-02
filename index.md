@@ -19,6 +19,7 @@ C. R. H. McRae, H. Wang, J. Gao, M. Vissers, T. Brecht, A. Dunsworth, D. Pappas,
 # Dataset
 * * *
 | SC | Reference | Dep. |Substrate	| δLP | Fδ0TLS |  g (µm) |
+
 |---|---|---|---|---|---|---|
 
 | Nb    |	Gao et al. (2008c)	     | Not Specified | Al2O3     |          | 2.40E-06 | 33      |
